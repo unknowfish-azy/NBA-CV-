@@ -1,0 +1,87 @@
+{
+  "format": "docx",
+  "verdict": "pass",
+  "checks": [
+    {
+      "id": "package",
+      "status": "pass"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "basketball_court"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "mAP@50-95"
+    },
+    {
+      "id": "contains",
+      "status": "pass",
+      "text": "best.pt"
+    }
+  ],
+  "summary": {
+    "paragraphs": 194,
+    "tables": [
+      {
+        "rows": 8,
+        "columns": 2
+      },
+      {
+        "rows": 4,
+        "columns": 5
+      },
+      {
+        "rows": 2,
+        "columns": 2
+      },
+      {
+        "rows": 2,
+        "columns": 9
+      },
+      {
+        "rows": 6,
+        "columns": 2
+      },
+      {
+        "rows": 9,
+        "columns": 2
+      },
+      {
+        "rows": 3,
+        "columns": 5
+      },
+      {
+        "rows": 2,
+        "columns": 5
+      },
+      {
+        "rows": 3,
+        "columns": 7
+      },
+      {
+        "rows": 8,
+        "columns": 2
+      }
+    ],
+    "sections": [
+      {
+        "page_twips": {
+          "w": "12240",
+          "h": "15840"
+        },
+        "margins_twips": {
+          "top": "1440",
+          "right": "1296",
+          "bottom": "1440",
+          "left": "1296",
+          "header": "720",
+          "footer": "720",
+          "gutter": "0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "run": "court_v8s_seg",
+  "data": "/root/autodl-tmp/bbsb/data/court_v4/court_v4.yaml",
+  "model": "yolov8s-seg.pt",
+  "epochs_requested": 100,
+  "imgsz": 640,
+  "batch": 32,
+  "seed": 0,
+  "save_dir": "/root/autodl-tmp/bbsb/runs/court_v8s_seg",
+  "best_weights": "/root/autodl-tmp/bbsb/runs/court_v8s_seg/weights/best.pt",
+  "train_minutes": 33.08,
+  "train_metrics": {
+    "metrics/precision(B)": 0.969018686560957,
+    "metrics/recall(B)": 0.827906976744186,
+    "metrics/mAP50(B)": 0.9448848449062466,
+    "metrics/mAP50-95(B)": 0.8928892529006193,
+    "metrics/precision(M)": 0.9300484123249111,
+    "metrics/recall(M)": 0.8651162790697674,
+    "metrics/mAP50(M)": 0.9482077383171313,
+    "metrics/mAP50-95(M)": 0.8656417418065203,
+    "fitness": 1.7585309947071397
+  },
+  "val_best": {
+    "metrics/precision(B)": 0.9622565883628736,
+    "metrics/recall(B)": 0.8300659173199205,
+    "metrics/mAP50(B)": 0.9449689360321328,
+    "metrics/mAP50-95(B)": 0.8937663276305357,
+    "metrics/precision(M)": 0.930031052573871,
+    "metrics/recall(M)": 0.8651162790697674,
+    "metrics/mAP50(M)": 0.9482354463972813,
+    "metrics/mAP50-95(M)": 0.8651774407471878,
+    "fitness": 1.7589437683777236
+  },
+  "val_speed_ms": {
+    "preprocess": 1.2115573004148723,
+    "inference": 2.135581288054372,
+    "loss": 0.012108771832265991,
+    "postprocess": 4.818330591452709
+  },
+  "test_error": "dataset has no test split"
+}
