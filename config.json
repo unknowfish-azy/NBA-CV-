@@ -1,0 +1,18 @@
+{
+  "roots": [
+    "E:/篮球场地标注",
+    "E:/篮球标注",
+    "E:/杜兰特人物标注",
+    "E:/阿门汤普森",
+    "E:/塔里伊森球员标记",
+    "E:/小贾巴里史密斯",
+    "E:/阿尔佩伦申京标注",
+    "E:/NBA_Workspace",
+    "E:/NBAHackathon-Team41-Handoff-20261007",
+    "E:/court_v4_train",
+    "E:/NBA_CCTV_1080P",
+    "E:/AWS-NBA-Workspace/NBA-AWS-CV-Agent",
+    "E:\\NBA-Audit-Toolkit\\sources\\NBA-CV-"
+  ],
+  "github": "https://github.com/unknowfish-azy/NBA-CV-.git"
+}
